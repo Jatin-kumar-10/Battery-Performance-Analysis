@@ -7,6 +7,8 @@ This project focuses on analyzing the performance and aging of Li-ion batteries.
 - **Charge Transfer Resistance (Rct)**
 - **Battery Capacity**
 
+![Description of Image](images/Figure_2.png)
+
 This analysis helps in understanding battery aging and performance degradation over cycles, which is crucial for applications like electric vehicles, energy storage systems, and portable electronics.
 
 ## Key Features
@@ -15,6 +17,9 @@ This analysis helps in understanding battery aging and performance degradation o
 - Data visualization: Using Plotly and Matplotlib for creating dynamic and static visualizations.
 - Statistical analysis: Correlation analysis between battery parameters and environmental conditions.
 - Easy-to-understand plots showcasing how impedance, resistance, and capacity evolve over time.
+
+![Description of Image](images/Figure_1.png)
+
 
 ## Installation
 
@@ -80,9 +85,9 @@ This could plots using plotly and showing how the following battery paramaters :
 
 are changing as the battery cell is aging through charge/discharge cycles.
 
-![Description of Image](images/Figure_2.png)
 
-![Description of Image](images/Figure_1.png)
+
+
 
 
 
