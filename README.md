@@ -68,6 +68,7 @@ This could plots using plotly and showing how the following battery paramaters :
 - Battery_impedance
 - Re: Estimated electrolyte resistance (Ohms)
 - Rct: Estimated charge transfer resistance (Ohms)
+
 are changing as the battery cell is aging through charge/discharge cycles.
 
 
