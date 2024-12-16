@@ -67,15 +67,15 @@ python battery_analysis.py
 This could plots using plotly and showing how the following battery paramaters :
 - Battery_impedance
 
-![Description of Image](images/your-image-name.png)
+![Description of Image](images/newplot.png)
 
 - Re: Estimated electrolyte resistance (Ohms)
 
-![Description of Image](images/your-image-name.png)
+![Description of Image](images/newplot(1).png)
 
 - Rct: Estimated charge transfer resistance (Ohms)
 
-![Description of Image](images/your-image-name.png)
+![Description of Image](images/newplot(2).png)
 
 
 are changing as the battery cell is aging through charge/discharge cycles.
