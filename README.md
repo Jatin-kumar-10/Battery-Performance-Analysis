@@ -47,6 +47,7 @@ For example, if you unzipped the dataset in `C:\Users\YourName\Downloads\nasa-ba
 ```python
 file_path = r'C:\Users\YourName\Downloads\nasa-battery-data\metadata.csv'
 ```
+We have to change **PATH** in **LINE NO : 8** and **LINE NO : 52** of **battery_analysis.py**
 
 ### 4. Install Dependencies
 The following Python libraries are required to run this project:
