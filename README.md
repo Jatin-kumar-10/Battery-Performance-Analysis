@@ -46,10 +46,10 @@ file_path = r'C:\Users\YourName\Downloads\nasa-battery-data\metadata.csv'
 ### 4. Install Dependencies
 The following Python libraries are required to run this project:
 
--**pandas**
--**plotly**
--**matplotlib**
--**seaborn**
+- **pandas**
+- **plotly**
+- **matplotlib**
+- **seaborn**
 
 ```python
 pip install pandas plotly matplotlib seaborn
@@ -65,9 +65,9 @@ python battery_analysis.py
 ## Usage
 
 This could plots using plotly and showing how the following battery paramaters :
--Battery_impedance
--Re: Estimated electrolyte resistance (Ohms)
--Rct: Estimated charge transfer resistance (Ohms)
+- Battery_impedance
+- Re: Estimated electrolyte resistance (Ohms)
+- Rct: Estimated charge transfer resistance (Ohms)
 are changing as the battery cell is aging through charge/discharge cycles.
 
 
