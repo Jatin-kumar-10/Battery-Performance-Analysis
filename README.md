@@ -21,8 +21,8 @@ This analysis helps in understanding battery aging and performance degradation o
 ### Step 1: Download the Dataset from Kaggle
 
 1. Visit the following [Kaggle dataset page](https://www.kaggle.com/datasets/patrickfleith/nasa-battery-dataset/data).
-2. Click on the "Download" button to get the dataset. It will be a ZIP file containing multiple CSV files.
-3. After downloading, unzip the file to a directory of your choice.
+  
+2. After downloading, unzip the file to a directory of your choice.
 
 ### Step 2: Clone the Repository
 
@@ -33,7 +33,56 @@ git clone https://github.com/Jatin-kumar-10/Battery-Performance-Analysis.git
 cd Battery-Performance-Analysis
 ```
 
-### Step 3: Update the File Paths
-In the battery_analysis.py script, you need to update the path to the metadata.csv file (or any other CSV files you are using) to match the location where you unzipped the dataset.
+### 3. Set the Correct Path for `metadata.csv`
 
-Locate the line in your battery_analysis.py script where the metadata.csv file is being read, and modify the path to point to the correct location:
+In the `battery_analysis.py` file, update the `metadata.csv` file path to the correct location where you unzipped the dataset.
+
+For example, if you unzipped the dataset in `C:\Users\YourName\Downloads\nasa-battery-data`, update the `file_path` variable in the script as follows:
+
+```python
+file_path = r'C:\Users\YourName\Downloads\nasa-battery-data\metadata.csv'
+```
+
+### 4. Install Dependencies
+The following Python libraries are required to run this project:
+
+-**pandas**
+-**plotly**
+-**matplotlib**
+-**seaborn**
+
+```python
+pip install pandas plotly matplotlib seaborn
+```
+
+### 5. Run the Analysis Script
+After setting up the environment and installing the dependencies, you can run the analysis script as follows:
+
+```python
+python battery_analysis.py
+```
+
+## Usage
+
+This could plots using plotly and showing how the following battery paramaters :
+-Battery_impedance
+-Re: Estimated electrolyte resistance (Ohms)
+-Rct: Estimated charge transfer resistance (Ohms)
+are changing as the battery cell is aging through charge/discharge cycles.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
