@@ -22,7 +22,7 @@ To run the project locally, follow these steps:
 
  Clone this repository:
 
-   '''bash
+   ```bash
    git clone https://github.com/Jatin-kumar-10/Battery-Performance-Analysis.git
    cd Battery-Performance-Analysis
 
@@ -38,14 +38,14 @@ The following Python libraries are required to run this project:
 
 You can install them by running:
 
-'''bash
+```bash
 pip install pandas plotly matplotlib seaborn
 
 # Usage
 
 After setting up the environment and installing the dependencies, you can run the analysis script as follows:
 
-'''bash
+```bash
 python battery_analysis.py
 
 This script will read the metadata and battery data files, clean the data, and generate plots for battery impedance, resistance, and capacity over the test cycles.
