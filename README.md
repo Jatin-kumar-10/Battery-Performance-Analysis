@@ -18,34 +18,22 @@ This analysis helps in understanding battery aging and performance degradation o
 
 ## Installation
 
-To run the project locally, follow these steps:
+### Step 1: Download the Dataset from Kaggle
 
- Clone this repository:
+1. Visit the following [Kaggle dataset page](https://www.kaggle.com/datasets/patrickfleith/nasa-battery-dataset/data).
+2. Click on the "Download" button to get the dataset. It will be a ZIP file containing multiple CSV files.
+3. After downloading, unzip the file to a directory of your choice.
 
-   ```bash
-   git clone https://github.com/Jatin-kumar-10/Battery-Performance-Analysis.git
-   cd Battery-Performance-Analysis
+### Step 2: Clone the Repository
 
-
-# Dependencies
-
-The following Python libraries are required to run this project:
-
-- **pandas**
-- **plotly**
-- **matplotlib**
-- **seaborn**
-
-You can install them by running:
+Clone this repository to your local machine:
 
 ```bash
-pip install pandas plotly matplotlib seaborn
+git clone https://github.com/Jatin-kumar-10/Battery-Performance-Analysis.git
+cd Battery-Performance-Analysis
+```
 
-# Usage
+### Step 3: Update the File Paths
+In the battery_analysis.py script, you need to update the path to the metadata.csv file (or any other CSV files you are using) to match the location where you unzipped the dataset.
 
-After setting up the environment and installing the dependencies, you can run the analysis script as follows:
-
-```bash
-python battery_analysis.py
-
-This script will read the metadata and battery data files, clean the data, and generate plots for battery impedance, resistance, and capacity over the test cycles.
+Locate the line in your battery_analysis.py script where the metadata.csv file is being read, and modify the path to point to the correct location:
