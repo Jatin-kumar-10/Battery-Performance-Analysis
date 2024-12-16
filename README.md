@@ -1,4 +1,4 @@
-# Battery Performance Analysis
+## Battery Performance Analysis
 
 This project focuses on analyzing the performance and aging of Li-ion batteries. Using data collected from multiple experiments, the aim is to understand how different battery parameters change over time, especially during charge/discharge cycles. The key metrics analyzed are:
 
@@ -27,7 +27,7 @@ To run the project locally, follow these steps:
    cd Battery-Performance-Analysis
 
 
-## Dependencies
+### Dependencies
 
 The following Python libraries are required to run this project:
 
@@ -41,7 +41,7 @@ You can install them by running:
 ```bash
 pip install pandas plotly matplotlib seaborn
 
-## Usage
+### Usage
 
 After setting up the environment and installing the dependencies, you can run the analysis script as follows:
 
