@@ -82,7 +82,7 @@ are changing as the battery cell is aging through charge/discharge cycles.
 
 ![Description of Image](images/your-image-name.png)
 
-![Description of Image](images/your-image-name.png)
+![Description of Image](images/Figure_1.png)
 
 
 
