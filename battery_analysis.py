@@ -49,7 +49,7 @@ for column in df.columns:
 df.reset_index(drop=True, inplace=True)
 
 # File path to save the cleaned metadata DataFrame
-cleaned_file_path = r'C:\Users\tsmxj\OneDrive\Desktop\juipter\cleaned_metadata.csv'
+cleaned_file_path = r'C:\Users\tsmxj\OneDrive\Desktop\juipter\cleaned_metadata.csv'  #change path here also
 
 # Saving the cleaned DataFrame to a new CSV file
 df.to_csv(cleaned_file_path, index=False)
