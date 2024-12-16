@@ -80,7 +80,7 @@ This could plots using plotly and showing how the following battery paramaters :
 
 are changing as the battery cell is aging through charge/discharge cycles.
 
-![Description of Image](images/your-image-name.png)
+![Description of Image](images/Figure_2.png)
 
 ![Description of Image](images/Figure_1.png)
 
